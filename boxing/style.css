@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: inline;
+}
+
+.first {
+  background-color: firebrick;
+  width: 100px;
+  height: 100px;
+  margin: 0.5em 0.7em;
+  padding: 1em;
+  border: 1em black solid;
+}
+
+.second {
+  background-color: forestgreen;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.third {
+  background-color: gold;
+  width: 100px;
+  height: 100px;
+}

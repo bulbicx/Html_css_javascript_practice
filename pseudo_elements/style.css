@@ -1,0 +1,25 @@
+p::first-line {
+  color: blue;
+}
+
+p::first-letter {
+  color: red;
+  font-size: xx-large;
+}
+
+p::before {
+  content: url(https://media.tenor.com/images/7db260732bbe2a6024d78ac75a3cb18d/tenor.gif);
+}
+
+p::after {
+  content: url(https://media.tenor.com/images/7db260732bbe2a6024d78ac75a3cb18d/tenor.gif);
+}
+
+p .highlight:hover {
+  background-color: yellow;
+}
+
+input:focus,
+input:active {
+  background-color: lightblue;
+}
